@@ -28,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@
         </nav>
 
         <!-- Banner part -->
-        <section class="container my-5">
+        <section id="home" class="container my-5">
             <div id="carouselExampleControls" class="carousel slide bg-banner-part rounded-3" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active p-4">
@@ -137,7 +137,7 @@
         </section>
 
         <!-- Shoes -->
-        <section class="container my-5">
+        <section id="shoes" class="container my-5">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col">
@@ -186,7 +186,7 @@
         </section>
 
         <!-- Backpack -->
-        <section class="container my-5">
+        <section id="backpack" class="container my-5">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col">
@@ -236,7 +236,7 @@
         </section>
 
         <!-- Subscribe -->
-        <section style="height: 300px"
+        <section id="subscribe" style="height: 300px"
             class=" container bg-banner-part d-flex align-items-center justify-content-center my-5 rounded-3">
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
@@ -248,8 +248,11 @@
     </main>
 
     <footer class="mt-5 text-center">
-        <p><small> &copy; 2021. Panda Commerce. All rights reserved.</small></p>
+        <p class="text-center my-4 text-secondary fw-bold">Copyright &copy; <a class="text-decoration-none"
+                href="https://www.linkedin.com/in/arifulsajib/" target="_blank">Ariful Islam</a>, 2021
+        </p>
     </footer>
+
     <!-- Bootstrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
